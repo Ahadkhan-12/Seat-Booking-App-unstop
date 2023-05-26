@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.seats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.seat.booked {
+  background-color: rgb(41, 134, 255);
+  cursor: not-allowed;
+}
+
+.booking-controls {
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(112, 158, 218);
+}
